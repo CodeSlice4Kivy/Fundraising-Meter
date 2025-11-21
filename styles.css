@@ -47,7 +47,7 @@
 
 #fundraising-progress-bar {
 	background: linear-gradient(90deg, #ff4d4d,#990000);
-	width: calc(219.10/14000 * 100%);
+	width: calc(719.10/14000 * 100%);
 	box-shadow: 0 0 8px rgba(255, 200, 0, 0.8);
 	border-radius: 12px;
 	height: 100%;
@@ -55,7 +55,7 @@
 
 #total-progress-bar {
 	background: linear-gradient(90deg, #ff4d4d,#990000);
-	width: calc(219.10/28100 * 100%);
+	width: calc(4379.77/28100 * 100%);
 	box-shadow: 0 0 8px rgba(255, 200, 0, 0.8);
 	border-radius: 12px;
 	height: 100%;
@@ -63,7 +63,7 @@
 
 #cell-1-progress-bar {
 	background: linear-gradient(90deg, #ff4d4d,#990000);
-	width: calc(0/2000 * 100%);
+	width: calc(240/2000 * 100%);
 	box-shadow: 0 0 8px rgba(255, 200, 0, 0.8);
 	border-radius: 12px;
 	height: 100%;
@@ -71,7 +71,7 @@
 
 #cell-2-progress-bar {
 	background: linear-gradient(90deg, #ff4d4d,#990000);
-	width: calc(219/2000 * 100%);
+	width: calc(471/2000 * 100%);
 	box-shadow: 0 0 8px rgba(255, 200, 0, 0.8);
 	border-radius: 12px;
 	height: 100%;
@@ -79,7 +79,7 @@
 
 #cell-3-progress-bar {
 	background: linear-gradient(90deg, #ff4d4d,#990000);
-	width: calc(0/2000 * 100%);
+	width: calc(250/2000 * 100%);
 	box-shadow: 0 0 8px rgba(255, 200, 0, 0.8);
 	border-radius: 12px;
 	height: 100%;
@@ -87,7 +87,7 @@
 
 #cell-4-progress-bar {
 	background: linear-gradient(90deg, #ff4d4d,#990000);
-	width: calc(0/2000 * 100%);
+	width: calc(527/2000 * 100%);
 	box-shadow: 0 0 8px rgba(255, 200, 0, 0.8);
 	border-radius: 12px;
 	height: 100%;
@@ -111,7 +111,7 @@
 
 #cell-7-progress-bar {
 	background: linear-gradient(90deg, #ff4d4d,#990000);
-	width: calc(0/2000 * 100%);
+	width: calc(500/2000 * 100%);
 	box-shadow: 0 0 8px rgba(255, 200, 0, 0.8);
 	border-radius: 12px;
 	height: 100%;
@@ -184,4 +184,41 @@ h1 {
 	background: linear-gradient(90deg, #ffdd3c, #ff8a00);
 	box-shadow: 0 0 6px rgba(255, 200, 0, 0.8);
 	border-radius: 10px;
+}
+
+.chart-container {
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+}
+
+#chart {
+	display: flex;
+	align-items: flex-end;
+	gap: 15px;
+	height: 300px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.bar {
+	width: 40px;
+	background: #4e91ff;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+}
+
+.bar-value {
+	position: absolute;
+	top: -25px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+.bar-label {
+	text-align: center;
+	margin-top: 5px;
+	font-size: 12px;
 }
